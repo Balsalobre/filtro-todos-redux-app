@@ -1,9 +1,9 @@
 import * as fromTodo from './todo.actions';
 import { Todo } from './model/todo.model';
 
-const todo1 = new Todo('Vencer a Thanos');
-const todo2 = new Todo('Salvar el mundo');
-const todo3 = new Todo('Pedir prestado el traje de IronMan');
+const todo1 = new Todo('Aprender el patrón Redux');
+const todo2 = new Todo('Lazy Load en Ionc 3');
+const todo3 = new Todo('Abrir Puerto 3078 para el API REST');
 
 todo2.completado = true;
 
